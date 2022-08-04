@@ -3,5 +3,39 @@
     height: 60px;
     position: absolute;
     top: 0%;
-    background-color: #2a2a2a
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center; 
+}
+.navbar_list {
+    list-style: none !important;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 30vw;
+    color: white;
+    align-items: center;
+}
+.logo_container {
+    height:50px;
+    width: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.logo {
+    height: auto;
+    width: 50px;
+}
+.divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    width: 1px;
 }
