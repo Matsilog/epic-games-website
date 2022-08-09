@@ -16,6 +16,16 @@
     color: white;
     align-items: center;
 }
+.navbar_list2 {
+    list-style: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 30vw;
+    color: white;
+    align-items: center;
+}
 .logo_container {
     height:50px;
     width: 50px;
